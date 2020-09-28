@@ -1,0 +1,26 @@
+.menu-item {
+    border: 1px solid black;
+    min-width: 31%;
+    align-content: center;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 15px;
+    overflow: hidden;
+
+    .content {
+        height: 110px;
+        padding: 0 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: relative;
+        top: 27%;
+        
+        .title {
+            margin-bottom: none;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.navbar {
+    max-width: 1024px;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+
+    .shop {
+        padding-right: 5px;
+        justify-content: space-between;
+
+        .item {
+            padding-right: 15px;
+            margin-top: 10px;
+        }
+    }
+    .logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
