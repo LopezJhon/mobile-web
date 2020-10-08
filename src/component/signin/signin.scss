@@ -1,0 +1,9 @@
+.sign-in {
+    max-width: 40%;
+    margin: 50px auto;
+
+    & .sign-in-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}

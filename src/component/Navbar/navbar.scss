@@ -1,6 +1,5 @@
 .navbar {
     max-width: 1024px;
-    margin: auto auto;
     display: flex;
     justify-content: space-between;
     height: 40px;
@@ -17,5 +16,9 @@
     .logo {
         font-size: 20px;
         font-weight: bold;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
     }
 }
