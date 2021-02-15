@@ -1,0 +1,41 @@
+.collection-container {
+    margin: 0 20px 30px;
+
+    .container {
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-top: 20px;
+            font-size: 50px;
+        }
+    }
+
+    
+
+    .display {
+        @media (max-width: 777px) {
+            grid-template-columns: 1fr 1fr;
+            
+        }
+        @media (max-width: 480px) {
+            grid-template-columns: 1fr;
+        }
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 17px 0;
+        width: 100%;
+        
+
+        .collection-item {
+            width: 100%;
+        }
+    }
+}

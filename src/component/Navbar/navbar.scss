@@ -1,11 +1,13 @@
 .navbar {
     max-width: 1024px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     height: 40px;
+    position: relative;
 
     .shop {
-        padding-right: 5px;
+        display: flex;
         justify-content: space-between;
 
         .item {
@@ -16,9 +18,16 @@
     .logo {
         font-size: 20px;
         font-weight: bold;
+        padding-top: 5px;
+        padding-left: 45px;
     }
     .content {
         display: flex;
         justify-content: space-between;
+
+        .item {
+            padding-left: 15px;
+            margin-top: 10px;
+        }
     }
 }

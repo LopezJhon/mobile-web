@@ -1,0 +1,33 @@
+.collection {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 30px;
+
+    .container {
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-top: 20px;
+            font-size: 50px;
+        }
+    }
+
+    .preview {
+        @media (min-width: 480px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (min-width: 777px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

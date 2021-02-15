@@ -1,0 +1,23 @@
+.collection-page {
+    max-width: 1024px;
+
+    .collection-container {
+        margin: 0 20px 30px;
+
+        .title {
+            margin-bottom: 25px;
+            align-items: center;
+        }
+    
+        .display {
+            display: grid;
+            grid-gap: 17px 0;
+            width: 100%;
+            
+
+            .collection-item {
+                width: 100%;
+            }
+        }
+    }
+}

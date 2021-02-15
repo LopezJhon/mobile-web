@@ -8,8 +8,11 @@ import './signinsignuppage.scss';
 function SignInSignOutPage() {
     return (
         <div className='sign-in-sign-up-page'>
-            <SignIn />
-            <SignUp />
+            <div className='banner'/>
+            <div className='sign-it-up'>
+                <SignIn />
+                <SignUp />
+            </div>
         </div>
     )
 }

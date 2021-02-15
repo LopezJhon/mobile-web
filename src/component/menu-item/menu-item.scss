@@ -2,22 +2,22 @@
     border: 1px solid black;
     min-width: 31%;
     align-content: center;
-    height: 240px;
+    height: 500px;
     display: flex;
     justify-content: center;
-    margin: 0 10px 15px;
+    margin: 0 20px 25px;
     overflow: hidden;
 
     .content {
         height: 110px;
-        padding: 0 25px;
+        padding: 0 175px 15px;
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
         border: 1px solid black;
         position: relative;
-        top: 27%;
+        top: 50%;
         
         .title {
             margin-bottom: none;

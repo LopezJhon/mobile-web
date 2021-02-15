@@ -1,16 +1,21 @@
 .collection-item {
-    width: 22%;
+    @media (min-width: 777px) {
+      width: 50%;
+    }
+    width: 100%;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 100%;
     align-items: center;
+    padding: 6px;
   
     .image {
       width: 100%;
-      height: 95%;
+      height: 100%;
       background-size: cover;
       background-position: center;
       margin-bottom: 5px;
+      padding-top: 120%;
     }
   
     .collection-footer {
@@ -21,12 +26,12 @@
       font-size: 18px;
   
       .name {
-        width: 90%;
+        align-items: flex-start;
         margin-bottom: 15px;
       }
   
       .price {
-        width: 10%;
+        align-items: flex-end;
       }
     }
   }
