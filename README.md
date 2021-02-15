@@ -1,3 +1,27 @@
+
+Home page image
+![](images/Screen%20Shot%202021-02-15%20at%201.37.05%20PM.png)
+Section Page Image (Desktop)
+![](images/Screen%20Shot%202021-02-15%20at%201.37.45%20PM.png)
+Section Page Image (Tablet)
+![](images/Screen%20Shot%202021-02-15%20at%201.38.36%20PM.png)
+Section Page Image (Phone)
+![](images/Screen%20Shot%202021-02-15%20at%201.39.06%20PM.png)
+Cart Image
+![](images/Screen%20Shot%202021-02-15%20at%201.39.45%20PM.png)
+Chekcout page
+![](images/Screen%20Shot%202021-02-15%20at%201.40.47%20PM.png)
+Sign in and Sign up
+![](images/Screen%20Shot%202021-02-15%20at%203.25.09%20PM.png)
+
+User experience:
+- User will be capable of creating and signing into their account or with google with the help of firebase.
+- In the shop page, user will be selecting a product category they would like to view or add to card from any of the items in our preview.
+- With the help of redux, the cart will store the items and give you access to the checkout page.
+- In the checkout page, the user with be capable of adding, substracting and removing the cart items.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,10 +91,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-Home page image
-![](images/Screen%20Shot%202021-02-15%20at%201.37.05%20PM.png)
-![](images/Screen%20Shot%202021-02-15%20at%201.37.45%20PM.png)
-![](images/Screen%20Shot%202021-02-15%20at%201.38.36%20PM.png)
-![](images/Screen%20Shot%202021-02-15%20at%201.39.06%20PM.png)
-![](images/Screen%20Shot%202021-02-15%20at%201.39.45%20PM.png)
-![](images/Screen%20Shot%202021-02-15%20at%201.40.47%20PM.png)
